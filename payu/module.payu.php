@@ -158,7 +158,7 @@ $productInfo.'|'.$billingDetails['ordbillfirstname'].'|'.$billingDetails['ordbil
         // print_r($hiddenFields);die;
 						
 		if($testmode_on == "YES") 
-		  $this->RedirectToProvider('https://test.payu.in/_payment.php', $hiddenFields);	
+		  $this->RedirectToProvider('https://sandboxsecure.payu.in/_payment.php', $hiddenFields);	
 		else	
   		  $this->RedirectToProvider('https://secure.payu.in/_payment.php', $hiddenFields);
 	}
